@@ -1,0 +1,46 @@
+{
+    "vetur.format.defaultFormatter.ts": "vscode-typescript",
+    "prettier.alignObjectProperties": true,
+    "prettier.arrayExpand": true,
+    "prettier.flattenTernaries": true,
+    "prettier.spaceBeforeFunctionParen": true,
+    "prettier.eslintIntegration": true,
+    "beautify.language": {
+
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    },
+    "compile-hero.config": "",
+    "liveSassCompile.settings.excludeList": [
+
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": null
+        }
+    ],
+    "scss.lint.duplicateProperties": "warning"
+}
