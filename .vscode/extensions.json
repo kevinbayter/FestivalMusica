@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "clemenspeters.format-json",
-        "ritwickdey.live-sass"
+        "ritwickdey.live-sass",
+        "tabnine.tabnine-vscode",
+        "github.copilot"
     ]
 }
